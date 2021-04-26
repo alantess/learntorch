@@ -5,7 +5,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Code/learntorch/torchscript/L1/main.cpp
  /home/alan/Downloads/libtorch/include/ATen/ATen.h
  /home/alan/Downloads/libtorch/include/ATen/CPUGeneratorImpl.h
- /home/alan/Downloads/libtorch/include/ATen/Config.h
  /home/alan/Downloads/libtorch/include/ATen/Context.h
  /home/alan/Downloads/libtorch/include/ATen/Device.h
  /home/alan/Downloads/libtorch/include/ATen/DeviceGuard.h
@@ -18,10 +17,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Downloads/libtorch/include/ATen/NamedTensor.h
  /home/alan/Downloads/libtorch/include/ATen/NamedTensorUtils.h
  /home/alan/Downloads/libtorch/include/ATen/NativeFunctions.h
- /home/alan/Downloads/libtorch/include/ATen/Parallel.h
- /home/alan/Downloads/libtorch/include/ATen/ParallelNative.h
- /home/alan/Downloads/libtorch/include/ATen/ParallelNativeTBB.h
- /home/alan/Downloads/libtorch/include/ATen/ParallelOpenMP.h
  /home/alan/Downloads/libtorch/include/ATen/ScalarOps.h
  /home/alan/Downloads/libtorch/include/ATen/SequenceNumber.h
  /home/alan/Downloads/libtorch/include/ATen/Tensor.h
@@ -98,7 +93,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Downloads/libtorch/include/ATen/core/rref_interface.h
  /home/alan/Downloads/libtorch/include/ATen/core/stack.h
  /home/alan/Downloads/libtorch/include/ATen/detail/CUDAHooksInterface.h
- /home/alan/Downloads/libtorch/include/ATen/detail/FunctionTraits.h
  /home/alan/Downloads/libtorch/include/ATen/detail/HIPHooksInterface.h
  /home/alan/Downloads/libtorch/include/ATen/record_function.h
  /home/alan/Downloads/libtorch/include/c10/core/Allocator.h
@@ -186,181 +180,15 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Downloads/libtorch/include/c10/util/string_utils.h
  /home/alan/Downloads/libtorch/include/c10/util/string_view.h
  /home/alan/Downloads/libtorch/include/c10/util/typeid.h
- /home/alan/Downloads/libtorch/include/c10/util/variant.h
  /home/alan/Downloads/libtorch/include/caffe2/serialize/inline_container.h
  /home/alan/Downloads/libtorch/include/caffe2/serialize/istream_adapter.h
  /home/alan/Downloads/libtorch/include/caffe2/serialize/read_adapter_interface.h
  /home/alan/Downloads/libtorch/include/caffe2/serialize/versions.h
- /home/alan/Downloads/libtorch/include/pybind11/attr.h
- /home/alan/Downloads/libtorch/include/pybind11/buffer_info.h
- /home/alan/Downloads/libtorch/include/pybind11/cast.h
- /home/alan/Downloads/libtorch/include/pybind11/detail/class.h
- /home/alan/Downloads/libtorch/include/pybind11/detail/common.h
- /home/alan/Downloads/libtorch/include/pybind11/detail/descr.h
- /home/alan/Downloads/libtorch/include/pybind11/detail/init.h
- /home/alan/Downloads/libtorch/include/pybind11/detail/internals.h
- /home/alan/Downloads/libtorch/include/pybind11/detail/typeid.h
- /home/alan/Downloads/libtorch/include/pybind11/options.h
- /home/alan/Downloads/libtorch/include/pybind11/pybind11.h
- /home/alan/Downloads/libtorch/include/pybind11/pytypes.h
- /home/alan/Downloads/libtorch/include/pybind11/stl.h
- /home/alan/Downloads/libtorch/include/torch/csrc/Device.h
- /home/alan/Downloads/libtorch/include/torch/csrc/Dtype.h
- /home/alan/Downloads/libtorch/include/torch/csrc/DynamicTypes.h
- /home/alan/Downloads/libtorch/include/torch/csrc/Exceptions.h
- /home/alan/Downloads/libtorch/include/torch/csrc/Generator.h
- /home/alan/Downloads/libtorch/include/torch/csrc/THP_export.h
  /home/alan/Downloads/libtorch/include/torch/csrc/WindowsTorchApiMacro.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/all.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/arg.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/autograd.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/cuda.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/dataloader.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/dataloader/base.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateful.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateless.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/dataloader_options.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/base.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/chunk.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/map.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/mnist.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/shared.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/stateful.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/datasets/tensor.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/detail/data_shuttle.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/detail/queue.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/detail/sequencers.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/example.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/iterator.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/base.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/custom_batch_request.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/distributed.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/random.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/sequential.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/serialize.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/samplers/stream.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/transforms.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/transforms/base.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/transforms/collate.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/transforms/lambda.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/transforms/stack.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/transforms/tensor.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/data/worker_exception.h
  /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/detail/TensorDataContainer.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/detail/static.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/enum.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/expanding_array.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/fft.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/jit.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/linalg.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/cloneable.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/activation.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/batchnorm.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/conv.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/distance.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/dropout.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/embedding.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/fold.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/instancenorm.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/linear.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/loss.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/normalization.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/padding.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/pixelshuffle.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/pooling.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/upsampling.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/functional/vision.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/init.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/module.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/_functions.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/activation.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/adaptive.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/batchnorm.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/common.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_module_holder.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_value.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/functional.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/moduledict.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/modulelist.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/named_any.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/parameterdict.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/parameterlist.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/sequential.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/conv.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/distance.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/dropout.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/embedding.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/fold.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/instancenorm.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/linear.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/loss.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/normalization.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/padding.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/pixelshuffle.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/pooling.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/rnn.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/transformer.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/transformercoder.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/transformerlayer.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/upsampling.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/modules/utils.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/activation.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/adaptive.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/batchnorm.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/conv.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/distance.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/dropout.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/embedding.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/fold.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/instancenorm.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/linear.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/loss.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/normalization.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/padding.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/pixelshuffle.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/pooling.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/rnn.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/transformer.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/transformercoder.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/transformerlayer.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/upsampling.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/options/vision.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/pimpl-inl.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/pimpl.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/utils.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/utils/clip_grad.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/utils/convert_parameters.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/nn/utils/rnn.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/adagrad.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/adam.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/adamw.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/lbfgs.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/optimizer.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/rmsprop.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/serialize.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/optim/sgd.h
  /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/ordered_dict.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/python.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/serialize.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/serialize/archive.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/serialize/input-archive.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/serialize/output-archive.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/serialize/tensor.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/torch.h
  /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/types.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/utils.h
- /home/alan/Downloads/libtorch/include/torch/csrc/api/include/torch/version.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/anomaly_mode.h
- /home/alan/Downloads/libtorch/include/torch/csrc/autograd/autograd.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/cpp_hook.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/custom_function.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/edge.h
@@ -374,7 +202,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/profiler_kineto.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/profiler_legacy.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/profiler_utils.h
- /home/alan/Downloads/libtorch/include/torch/csrc/autograd/python_variable.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/saved_variable.h
  /home/alan/Downloads/libtorch/include/torch/csrc/autograd/variable.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/api/compilation_unit.h
@@ -398,7 +225,6 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/custom_operator.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/graph_executor.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/interpreter.h
- /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/jit_exception.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/operator.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/operator_options.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/runtime/variable_tensor_list.h
@@ -406,20 +232,12 @@ CMakeFiles/main.dir/main.cpp.o
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/serialization/pickle.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/serialization/pickler.h
  /home/alan/Downloads/libtorch/include/torch/csrc/jit/serialization/unpickler.h
- /home/alan/Downloads/libtorch/include/torch/csrc/python_headers.h
- /home/alan/Downloads/libtorch/include/torch/csrc/utils/auto_gil.h
  /home/alan/Downloads/libtorch/include/torch/csrc/utils/disallow_copy.h
  /home/alan/Downloads/libtorch/include/torch/csrc/utils/memory.h
- /home/alan/Downloads/libtorch/include/torch/csrc/utils/object_ptr.h
- /home/alan/Downloads/libtorch/include/torch/csrc/utils/pybind.h
- /home/alan/Downloads/libtorch/include/torch/csrc/utils/python_numbers.h
  /home/alan/Downloads/libtorch/include/torch/csrc/utils/python_stub.h
- /home/alan/Downloads/libtorch/include/torch/csrc/utils/python_tuples.h
- /home/alan/Downloads/libtorch/include/torch/csrc/utils/tensor_numpy.h
  /home/alan/Downloads/libtorch/include/torch/csrc/utils/variadic.h
  /home/alan/Downloads/libtorch/include/torch/custom_class.h
  /home/alan/Downloads/libtorch/include/torch/custom_class_detail.h
- /home/alan/Downloads/libtorch/include/torch/extension.h
  /home/alan/Downloads/libtorch/include/torch/library.h
  /home/alan/Downloads/libtorch/include/torch/script.h
  /usr/local/cuda/include/builtin_types.h

@@ -1,6 +1,5 @@
 #include "iostream"
 #include "torch/script.h"
-#include "torch/torch.h"
 
 int main() {
   torch::jit::script::Module net = torch::jit::load("../models/net.pt");
