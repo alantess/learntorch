@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+
+# Remove Build Dir
+build/
