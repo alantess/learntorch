@@ -1,8 +1,8 @@
 #include "dataset.h"
 
 namespace {
-constexpr int kTrainSize = 8000;
-constexpr int kTestSize = 1000;
+constexpr int kTrainSize = 8007;
+constexpr int kTestSize = 2027;
 
 constexpr int kRows = 300;
 constexpr int kCols = 300;
@@ -20,7 +20,7 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
   int i = 0;
   std::string ext(".jpg");
   const auto num_samples = train ? kTrainSize : kTestSize;
-  const auto folder = train ? root + "/test" : root + "/train";
+  const auto folder = train ? root + "/train" : root + "/test";
   int sz[] = {100, 120, 100};
   auto targets = torch::empty(num_samples, torch::kInt64);
   auto images = torch::empty({num_samples, 3, kRows, kCols}, torch::kFloat);
@@ -28,7 +28,6 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
   std::string cats_folder = folder + "/cats";
   std::string dogs_folder = folder + "/dogs";
   std::vector<std::string> folders = {cats_folder, dogs_folder};
-  int count = 0;
 
   for (auto& f : folders) {
     int64_t label = 0;
@@ -38,7 +37,6 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
         auto img_tensor = CVtoTensor(img);
         images[i] = img_tensor;
         targets[i] = torch::tensor(label, torch::kInt64);
-        count++;
       }
 
       if (i >= num_samples) break;
@@ -46,7 +44,6 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
     }
     label++;
   }
-  std::cout << "Count : " << count;
 
   return {images, targets};
 }

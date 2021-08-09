@@ -17,14 +17,13 @@ int main() {
       torch::data::make_data_loader<torch::data::samplers::RandomSampler>(
           std::move(train_dataset), 4);
 
-  /* auto test_dataset = CatDog(root, CatDog::Mode::kTest) */
-  /*                         .map(torch::data::transforms::Normalize<>( */
-  /*                             {0.5, 0.5, 0.5}, {0.5, 0.5, 0.5})) */
-  /*                         .map(torch::data::transforms::Stack<>()); */
-  /* auto test_loader = */
-  /*     torch::data::make_data_loader<torch::data::samplers::SequentialSampler>(
-   */
-  /*         std::move(test_dataset), 4); */
+  auto test_dataset = CatDog(root, CatDog::Mode::kTest)
+                          .map(torch::data::transforms::Normalize<>(
+                              {0.5, 0.5, 0.5}, {0.5, 0.5, 0.5}))
+                          .map(torch::data::transforms::Stack<>());
+  auto test_loader =
+      torch::data::make_data_loader<torch::data::samplers::SequentialSampler>(
+          std::move(test_dataset), 4);
 
   for (auto& batch : *train_loader) {
     auto img = batch.data;
