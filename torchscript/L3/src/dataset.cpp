@@ -21,7 +21,6 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
   std::string ext(".jpg");
   const auto num_samples = train ? kTrainSize : kTestSize;
   const auto folder = train ? root + "/train" : root + "/test";
-  int sz[] = {100, 120, 100};
   auto targets = torch::empty(num_samples, torch::kInt64);
   auto images = torch::empty({num_samples, 3, kRows, kCols}, torch::kFloat);
 
