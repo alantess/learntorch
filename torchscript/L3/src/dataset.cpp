@@ -27,9 +27,10 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
   std::string cats_folder = folder + "/cats";
   std::string dogs_folder = folder + "/dogs";
   std::vector<std::string> folders = {cats_folder, dogs_folder};
+  
+  int64_t label = 0;
 
   for (auto& f : folders) {
-    int64_t label = 0;
     for (const auto& p : fs::directory_iterator(f)) {
       if (p.path().extension() == ext) {
         cv::Mat img = cv::imread(p.path());
