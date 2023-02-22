@@ -32,6 +32,7 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
 
   for (auto& f : folders) {
     for (const auto& p : fs::directory_iterator(f)) {
+      if (i >= num_samples) break;
       if (p.path().extension() == ext) {
         cv::Mat img = cv::imread(p.path());
         auto img_tensor = CVtoTensor(img);
@@ -39,7 +40,6 @@ std::pair<torch::Tensor, torch::Tensor> read_data(const std::string& root,
         targets[i] = torch::tensor(label, torch::kInt64);
       }
 
-      if (i >= num_samples) break;
       i++;
     }
     label++;
